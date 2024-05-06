@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-dark-1: #131921;
+  --color-dark-2: #232F3E;
+  --color-white: #fff;
+  --color-primary-yellow: #febd69;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: var(--color-white);
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+a:hover {
+  color: var(--color-white);
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: inherit;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.gap-15 {
+  gap: 15px;
+}
+
+/* Header Css start */
+.header-top-strip {
+  background-color: var(--color-dark-1);
+  /* border-bottom: 1px solid var(--color-white); */
+  color: var(--color-white);
+}
+
+.header-upper {
+  background-color: var(--color-dark-2);
+}
+
+.header-upper .input-group-text {
+  background-color: var(--color-primary-yellow);
+  color: var(--color-dark-1);
+}
+
+.header-upper .input-group-text:hover {
+  cursor: pointer;
+}
+
+.header-upper .header-upper-links img {
+  width: 25px;
+  height: 25px;
+}
+
+/* Header Css end */
